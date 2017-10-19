@@ -1,0 +1,131 @@
+body
+{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  background-image: url("../../assets/images/background1.jpg");
+  height: 100%; 
+  background-position: center;
+  background-size: cover;
+}
+
+p
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+
+}
+
+.starterpagebody
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 100px;
+	height: 800px;
+	border-color: black;
+	background-color: yellow;
+}
+
+#buttonGenerator
+{
+
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	height: 200px;
+	margin-left: 40%;
+	margin-top: 20%;
+}
+
+.questionpage
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+	margin-bottom: 10%
+	height: 100%;
+	border-color: black;
+	background-color: yellow;
+}
+
+
+.instructions
+{
+	width: 80%;
+	height: 200px;
+	background-color: orange;
+	margin-left: 10%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
+
+#timer
+{
+	width: 50%;
+	height: 10%;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+.question1
+{
+	width: 80%;
+	height: 200px;
+	background-color: orange;
+	margin-left: 10%;
+	margin-bottom: 3%;
+}
+
+.question2
+{
+	width: 80%;
+	height: 200px;
+	background-color: orange;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	
+}
+
+.question3
+{
+	width: 80%;
+	height: 200px;
+	background-color: orange;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	
+}
+
+.question4
+{
+	width: 80%;
+	height: 200px;
+	background-color: orange;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	
+}
+
+.question5
+{
+	width: 80%;
+	height: 200px;
+	background-color: orange;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	
+}
+
+.question6
+{
+	width: 80%;
+	height: 200px;
+	background-color: orange;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	
+}
