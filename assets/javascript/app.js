@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-	var timernumber = 5;
+	var timernumber = 10;
 	var timerIntervaId;
 
 
@@ -14,9 +14,20 @@ $(document).ready(function()
         // fades in the question page on button click
         $(".questionpage").fadeIn();
         timerRun();
-        winLossRecord();        
-
+        winLossRecord();
     });
+
+
+    $("#submitbutton").click(function()
+    {
+        $("#submitbutton").fadeOut();
+        // fades in the question page on button click
+        $(".questionpage").fadeOut();
+        $(".finalPage").fadeIn();
+        winLossRecord();
+    });
+        
+
 
     function timerRun()
     {
