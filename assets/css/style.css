@@ -11,7 +11,7 @@ p
 {
 	text-align: center;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 30px;
 
 }
 
@@ -43,6 +43,252 @@ p
 	margin-top: 2%;
 	margin-bottom: 10%
 	height: 100%;
+	border-color: black;
+	background-color: yellow;
+}
+
+.questionbody
+{
+	width: 90;
+	height: 100px;
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
+}
+
+h2
+{
+	display: inline-block;
+	width: 100px;
+	font-size: 20px;
+}
+
+
+#qoneaone
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+
+}
+
+#qoneatwo
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+
+}
+
+#qoneathree
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+
+}
+
+#qtwoaone
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qtwoatwo
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qtwoathree
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qthreeaone
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qthreeatwo
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qthreeathree
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qfouraone
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qfouratwo
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qfourathree
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qfiveaone
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qfiveatwo
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qfiveathree
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qsixaone
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qsixatwo
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+#qsixathree
+{
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-right: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+.finalPage
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 100px;
+	height: 800px;
 	border-color: black;
 	background-color: yellow;
 }
