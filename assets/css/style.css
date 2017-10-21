@@ -304,6 +304,10 @@ h2
 	height: 800px;
 	border-color: black;
 	background-color: yellow;
+	text-align: center;
+	font-style: bold;
+	font-size: 30px;
+	color: black;
 }
 
 
