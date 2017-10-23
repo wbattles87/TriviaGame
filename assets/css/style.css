@@ -310,6 +310,28 @@ h2
 	color: black;
 }
 
+.rightanswers
+{
+	background-color: orange;
+	width: 40%;
+	height: 300px;
+	float: left;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+}
+
+.wronganswers
+{
+	background-color: orange;
+	width: 40%;
+	height: 300px;
+	float: right;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+
+}
 
 .instructions
 {

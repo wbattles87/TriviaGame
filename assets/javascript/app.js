@@ -1,34 +1,9 @@
 $(document).ready(function()
 {
-	var timernumber = 1000;
+	var timernumber = 10;
 	var timerIntervaId;
-	var correct = 0;
-	var incorrect = 0;
-
-	$("#qoneathree").attr("value", "correct");
-	$("#qtwoathree").attr("value", "correct");
-	$("#qthreeaone").attr("value", "correct");
-	$("#qfouratwo").attr("value", "correct");
-	$("#qfiveathree").attr("value", "correct");
-	$("#qsixaone").attr("value", "correct");
-
-	$("#qoneaone").attr("value", "incorrect");
-	$("#qoneatwo").attr("value", "incorrect");
-	$("#qtwoaone").attr("value", "incorrect");
-	$("#qtwoatwo").attr("value", "incorrect");
-	$("#qthreeatwo").attr("value", "incorrect");
-	$("#qthreeathree").attr("value", "incorrect");
-	$("#qfouraone").attr("value", "incorrect");
-	$("#qfourathree").attr("value", "incorrect");
-	$("#qfiveaone").attr("value", "incorrect");
-	$("#qfiveatwo").attr("value", "incorrect");
-	$("#qsixatwo").attr("value", "incorrect");
-	$("#qsixathree").attr("value", "incorrect");
-	
-
-
-
-
+	var correct=0;
+	var incorrect=0;
 
 
 	$(".questionpage").fadeOut();
@@ -41,8 +16,8 @@ $(document).ready(function()
         // fades in the question page on button click
         $(".questionpage").fadeIn();
         timerRun();
-        correctFunction();
-        incorrectFunction();
+
+
     });
 
 
@@ -52,8 +27,7 @@ $(document).ready(function()
         // fades in the question page on button click
         $(".questionpage").fadeOut();
         $(".finalPage").fadeIn();
-        correctFunction();
-        incorrectFunction();
+
     });
         
 
@@ -72,6 +46,7 @@ $(document).ready(function()
     		stop();
             $(".questionpage").fadeOut();
             $(".finalPage").fadeIn();
+
             
 
     		// put in the fade out of the questions page 
@@ -88,51 +63,15 @@ $(document).ready(function()
 	}
 
 
-
-
-
-    $("#qoneathree").on("click", function()
-    {
-		
-		correctFunction();
-
-    });
-    
-    $("#qtwoathree").on("click", function()
-    {
-    	
-    	correctFunction();
-
-    });
-
-	$("#qthreeaone").on("click", function()
-	{
-	
-		correctFunction();
-
-	});
-
-	$("#qfouratwo").on("click", function()
-	{
-		
-		correctFunction();
-
-	});
-
-	$("#qfiveathree").on("click", function()
-	{
-		correctFunction();
-
-	});
-
-	$("#qsixaone").on("click", function()
-	{
-		
-		correctFunction();
-
-	});
-
 	// so make a 2 classes, 1 for correctbuttonclass and 1 for incorrectbuttonclass
+	$(".correctbuttonclass").on("click", function()
+	{
+
+		correctFunction();
+
+	});
+
+
 
 	$(".incorrectbuttonclass").on("click", function()
 	{
@@ -143,17 +82,20 @@ $(document).ready(function()
 
     function incorrectFunction()
     {
-    	incorrect +=1;
-    	//another div class instead of body
-		$(".finalPage").html(incorrect);
+
+    	incorrect += 1;
+    	console.log(incorrect);
+		$(".wronganswers").text("You have " +incorrect+ " answers incorrect");
     }
 
 
 
     function correctFunction()
     {
+
     	correct += 1;
-		$(".finalPage").text(correct);
+    	console.log(correct);
+		$(".rightanswers").text("You have " +correct+ " answers correct");
     }
 
 
